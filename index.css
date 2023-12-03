@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.vending-machine {
+    background-color: #019db4;
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.products {
+    border: 1px solid black;
+    grid-column-start: span 3;
+}
+
+.display {
+   background-color: #91d5ec; 
+    border: 1px solid black;
+}
