@@ -7,6 +7,7 @@ if (button) {
   button.addEventListener("click", () => {
     counter++;
     checkAllProducts();
+    updateCounter();
   });
 }
 // re-render function
@@ -32,7 +33,13 @@ function handlePurchase(e: Event) {
       if (counter >= price) {
         counter = counter - price;
         checkAllProducts();
+        updateCounter();
       }
     }
   }
+}
+
+function updateCounter() {
+  screen = document.querySelector(".screen");
+  screen.innerHTML = counter;
 }
