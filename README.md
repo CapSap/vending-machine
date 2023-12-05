@@ -16,3 +16,7 @@ It was a little tricky getting the right types for Event objects. DOM selectors 
 App looks like this
 ![image](https://github.com/CapSap/vending-machine/assets/23469082/7cff8762-fe92-4962-8364-3cb3c3c155fb)
 
+but don't take my word for it
+## Live site
+https://capsap.github.io/vending-machine/
+
