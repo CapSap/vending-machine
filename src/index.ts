@@ -40,6 +40,8 @@ function handlePurchase(e: Event) {
 }
 
 function updateCounter() {
-  screen = document.querySelector(".screen");
-  screen.innerHTML = counter;
+  const screen = document.querySelector(".screen");
+  if (screen) {
+    screen.innerHTML = counter.toString();
+  }
 }
