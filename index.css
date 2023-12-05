@@ -30,6 +30,12 @@
   margin: 10px;
   flex-direction: column;
   align-items: center;
+  transition: font-size;
+  transition-duration: 2s;
+}
+.product:hover {
+  font-size: 60px;
+  cursor: pointer;
 }
 
 .light {
