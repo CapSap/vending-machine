@@ -9,7 +9,8 @@ It was a little tricky getting the right types for Event objects. DOM selectors 
 1. Clone the repo
 2. run ```npm install```
 3. run ```npm run dev``` (this will run the typescript compiler and watch for saved changes)
-4. open index.html with your browser, or use a live reload
+4. Open index.html in your browser or use your favourite live server tool
+5. done!
 
 ## Screenshot
 App looks like this
